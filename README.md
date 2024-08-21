@@ -29,6 +29,6 @@ If you found an issue or would like to submit an improvement to this project, pl
 
 Flash read is a learning task with quite alot still work in progress :
 
-- Sort and Filter functionality
+- Filter functionality
 - User personal flash card customization to make the experience more interesting
-- Storage of flash cards beyond the session
+- Storage of flash cards beyond the user's current session
