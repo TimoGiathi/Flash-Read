@@ -1,6 +1,6 @@
 # Flash Read (Frontend)
 
-![Flash Read Landing Page](/src/flash%20read%20landing%20page.PNG)
+![Flash Read Landing Page](/src/landing%20page.PNG)
 
 ## A functional frontend website for making basic flash cards
 
