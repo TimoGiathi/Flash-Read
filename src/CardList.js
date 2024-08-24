@@ -18,6 +18,8 @@ export default function CardList({
       sorted.sort((a, b) => b.subject.localeCompare(a.subject));
     } else if (sortCards === "contA-Z") {
       sorted.sort((a, b) => a.content.localeCompare(b.content));
+    } else if (sortCards === "read-status") {
+      sorted.sort((a, b) => Number(a.read) - Number(b.read));
     } else if (sortCards === "contZ-A") {
       sorted.sort((a, b) => b.content.localeCompare(a.content));
     }
@@ -57,6 +59,7 @@ export default function CardList({
             <option value="subZ-A">Subject: Z-A</option>
             <option value="contA-Z">Content: A-Z</option>
             <option value="contZ-A">Content: Z-A</option>
+            <option value="read-status">Read Status</option>
           </select>
         </label>
       </div>
